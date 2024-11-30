@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include --C99
+-I.\RTE\_ceshi
+-IE:\keil32\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+-IE:\keil32\Keil\STM32F1xx_DFP\2.4.1\Device\Include
+-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE
+-o ceshi\atk_md0430.o --omf_browse ceshi\atk_md0430.crf --depend ceshi\atk_md0430.d "..\Core\Src\atk_md0430.c"
